@@ -1,24 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html class="theme-dark">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Constitution - HCCPDC</title>
+    <title>HCCPDC</title>
+    <link rel="stylesheet" href="/static/css/bulma.min.css">
 </head>
+
 <body>
-    <img hidden src="logo/长方形.png" alt="" style="height: 10vh;">
-    <h1>Constitution - <a href="../">HCCPDC</a></h1>
-    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://qdzx.net.cn">
+                <img src="/logo/长方形-白色.png" alt="">
+            </a>
 
-    <ul>
-        <li>2024-Present <a href="HCCPDC_Constitution2024/">HCCPDC_Constitution2024</a></li>
-        <li>2022-2023 <a href="HCCPDC_Constitution2022/">HCCPDC_Constitution2022</a></li>
-    </ul>
-    <hr>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
 
-    <footer>
-        <p>Copyright &copy; Qingdao Academy HCC Programme Development Club, All right reserved.</p>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/constitution/">
+                    章程
+                </a>
+
+                <a class="navbar-item" href="/project/">
+                    项目
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        内网服务
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="https://git.qdzx.net.cn">
+                            Git
+                        </a>
+                        <a class="navbar-item" href="https://ntp.qdzx.net.cn">
+                            NTP
+                        </a>
+                        <a class="navbar-item" href="https://dns.qdzx.net.cn">
+                            DNS
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="mailto:postmaster@hcc.qdzx.net.cn">
+                            联系我们
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-link" href="https://hcc.qdzx.net.cn/">
+                            <strong>加入我们</strong>
+                        </a>
+                        <a class="button is-light" href="https://portal.qdzx.net.cn/">
+                            Portal (内网)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="m-6">
+        <h2 class="title">2024-现在</h2>
+        <div class="grid">
+            <div class="cell"><a class="button is-fullwidth is-info" href="./2024/HCCPDC_Constitution2024.pdf">PDF</a></div>
+            <div class="cell"><a class="button is-fullwidth is-success" href="./2024/HCCPDC_Constitution2024.html">HTML</a></div>
+            <div class="cell"><a class="button is-fullwidth is-warning" href="./2024/HCCPDC_Constitution2024.docx">DOCS</a></div>
+        </div>
+
+        <h2 class="title">2022-2023</h2>
+        <div class="grid">
+            <div class="cell"><a class="button is-fullwidth is-info" href="./2022/HCCPDC_Constitution2022.pdf">PDF</a></div>
+            <div class="cell"><a class="button is-fullwidth is-success" href="./2022/HCCPDC_Constitution2022.html">HTML</a></div>
+            <div class="cell"><a class="button is-fullwidth is-warning" href="./2022/HCCPDC_Constitution2022.docx">DOCS</a></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Copyright &copy; Qingdao Academy HCC Programme Development Club, All right reserved.
+            </p>
+        </div>
     </footer>
 </body>
+
 </html>

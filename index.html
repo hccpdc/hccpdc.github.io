@@ -1,22 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html class="theme-dark">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HCCPDC</title>
+    <link rel="stylesheet" href="/static/css/bulma.min.css">
 </head>
-<body>
-    <img hidden src="logo/长方形.png" alt="" style="height: 10vh;">
-    <h1>Qingdao Academy HCC Programme Development Club.</h1>
-    <h3><a href="constitution/">Constitution</a></h3>
-    <h3><a href="project/">Project</a></h3>
-    <h3><a href="joinus/">Join us</a></h3>
-    <h3><a href="https://github.com/hccpdc" target="_blank" rel="noopener noreferrer">Github</a></h3>
-    <hr>
 
-    <footer>
-        <p>Copyright &copy; Qingdao Academy HCC Programme Development Club, All right reserved.</p>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://qdzx.net.cn">
+                <img src="/logo/长方形-白色.png" alt="">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/constitution/">
+                    章程
+                </a>
+
+                <a class="navbar-item" href="/project/">
+                    项目
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        内网服务
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="https://git.qdzx.net.cn">
+                            Git
+                        </a>
+                        <a class="navbar-item" href="https://ntp.qdzx.net.cn">
+                            NTP
+                        </a>
+                        <a class="navbar-item" href="https://dns.qdzx.net.cn">
+                            DNS
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="mailto:postmaster@hcc.qdzx.net.cn">
+                            联系我们
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-link" href="https://hcc.qdzx.net.cn/">
+                            <strong>加入我们</strong>
+                        </a>
+                        <a class="button is-light" href="https://portal.qdzx.net.cn/">
+                            Portal (内网)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="m-6">
+        <!-- <img style="height: 100px;" src="/logo/方形.png" alt=""> -->
+        <h1 class="title">青岛中学HCC项目开发社团</h1>
+        <h2 class="subtitle">Qingdao Academy HCC Programme Development Club.</h2>
+        <hr>
+        <h3 class="title is-4">我们是谁？</h3>
+        <p>我们是来自青岛中学各个年级的同学们。而我们社团的日常，就是学习信息技术，并将其运用到自己的项目中！
+            <br>如果你也同样爱好技术，那么我们很欢迎你加入我们！</p>
+        <h3 class="title is-4 mt-6">我们也希望你可以更了解我们...</h3>
+        <p>青中项目开发社团由一群热爱技术的同学们发起，他们有的技术和项目经验丰富，开发过瓜田等项目；有的“年少有为”，刚踏入初中能力便能比肩计算机大一本科生；有的怀揣探索技术的热情，正稳步前进……
+            <br>我们希望更多对技术保有热爱的同学加入我们。我们也相信你此刻已经明白，项目开发无法帮助提高信竞成绩。
+            <br>在社团中，成员的意见将被高度重视。当你掌握了基本技术、进入开发阶段后，我们将会根据你的特点给予建议，但决定权仍在你自己手中——你可以自由选择自己要加入的项目组，甚至提出自己喜欢的项目，与志同道合的成员一同去实现它。</p>
+        
+        
+        <a class="button is-fullwidth mt-6 is-info" href="https://hcc.qdzx.net.cn/">加入我们吧</a>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Copyright &copy; Qingdao Academy HCC Programme Development Club, All right reserved.
+            </p>
+        </div>
     </footer>
 </body>
+
 </html>
